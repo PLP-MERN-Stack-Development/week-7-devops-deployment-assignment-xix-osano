@@ -154,36 +154,36 @@ Logout: Click the "Logout" button to return to the authentication page.
 ## Folder Structure
 The project is organized into backend and frontend directories.
 
-.
-- ├── expense-tracker-backend/
-- │   ├── config/             # Database connection setup
-- │   │   └── db.js
-- │   ├── controllers/        # Business logic for routes
-- │   │   ├── authController.js
-- │   │   └── expenseController.js
-- │   ├── middleware/         # Custom middleware (e.g., authentication)
-- │   │   └── authMiddleware.js
-- │   ├── models/             # Mongoose schemas for data models
-- │   │   ├── User.js
-- │   │   └── Expense.js
-- │   ├── routes/             # API endpoints
-- │    │   ├── authRoutes.js
-- │   │   └── expenseRoutes.js
-- │   ├── .env                # Environment variables (sensitive info)
-- │   ├── package.json
-- │   └── server.js           # Main Express server file
-- │
-- └── expense-tracker-frontend/
- -   ├── public/
- -  ├── src/
- -   │   ├── App.js          # Main application component, handles routing
- -   │   ├── AuthForm.js     # Login and Registration form component
- -   │   ├── Dashboard.js    # Main dashboard component, manages expense state
- -   │   ├── ExpenseForm.js  # Component for adding new expenses
- -   │   ├── ExpenseList.js  # Component for displaying expenses table
- -   │   └── index.js        # React app entry point
- -   ├── package.json
- -   └── README.md           # This file
+
+-      ├── expense-tracker-backend/
+-      │   ├── config/             # Database connection setup
+-      │   │   └── db.js
+-      │   ├── controllers/        # Business logic for routes
+-      │   │   ├── authController.js
+-      │   │   └── expenseController.js
+-      │   ├── middleware/         # Custom middleware (e.g., authentication)
+-      │   │   └── authMiddleware.js
+-      │   ├── models/             # Mongoose schemas for data models
+-      │   │   ├── User.js
+-      │   │   └── Expense.js
+-      │   ├── routes/             # API endpoints
+-      │    │   ├── authRoutes.js
+-      │   │   └── expenseRoutes.js
+-      │   ├── .env                # Environment variables (sensitive info)
+-      │   ├── package.json
+-      │   └── server.js           # Main Express server file
+-      │
+-      └── expense-tracker-frontend/
+ -        ├── public/
+ -       ├── src/
+ -        │   ├── App.js          # Main application component, handles routing
+ -        │   ├── AuthForm.js     # Login and Registration form component
+ -        │   ├── Dashboard.js    # Main dashboard component, manages expense state
+ -        │   ├── ExpenseForm.js  # Component for adding new expenses
+ -        │   ├── ExpenseList.js  # Component for displaying expenses table
+ -        │   └── index.js        # React app entry point
+ -        ├── package.json
+ -        └── README.md           # This file
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or find any bugs, please feel free to:
