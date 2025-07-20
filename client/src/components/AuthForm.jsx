@@ -20,7 +20,7 @@ const AuthForm = ({ navigate, initialPath, onAuthSuccess }) => {
         e.preventDefault();
         setMessage('');
         try {
-            const response = await fetch('http://localhost:5000/api/auth/login', { // Replace with your backend URL
+            const response = await fetch('https://week-7-devops-deployment-assignment-xix.onrender.com/api/auth/login', { // Replace with your backend URL
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ const AuthForm = ({ navigate, initialPath, onAuthSuccess }) => {
         e.preventDefault();
         setMessage('');
         try {
-            const response = await fetch('http://localhost:5000/api/auth/register', { // Replace with your backend URL
+            const response = await fetch('https://week-7-devops-deployment-assignment-xix.onrender.com/api/auth/register', { // Replace with your backend URL
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
