@@ -5,56 +5,56 @@
 
 
 ## Features
-User Authentication: Secure registration and login using JWT (JSON Web Tokens).
+- User Authentication: Secure registration and login using JWT (JSON Web Tokens).
 
-Expense Management:
+- Expense Management:
 
-Add new expenses with description, amount, and category.
+- Add new expenses with description, amount, and category.
 
-View a list of all recorded expenses.
+- View a list of all recorded expenses.
 
-Edit existing expense details.
+- Edit existing expense details.
 
-Delete expenses.
+- Delete expenses.
 
-Expense Summary: Displays the total sum of all recorded expenses.
+- Expense Summary: Displays the total sum of all recorded expenses.
 
-Responsive Design: User interface adapts to different screen sizes (mobile, tablet, desktop).
+- Responsive Design: User interface adapts to different screen sizes (mobile, tablet, desktop).
 
-Client-side Routing: Seamless navigation between login, registration, and dashboard pages without full page reloads.
+- Client-side Routing: Seamless navigation between login, registration, and dashboard pages without full page reloads.
 
 ## Technologies Used
 * This project leverages the MERN stack:
 
-MongoDB: A NoSQL database for storing user and expense data.
+- MongoDB: A NoSQL database for storing user and expense data.
 
-Express.js: A fast, unopinionated, minimalist web framework for Node.js, used for building the RESTful API.
+- Express.js: A fast, unopinionated, minimalist web framework for Node.js, used for building the RESTful API.
 
-React: A JavaScript library for building user interfaces, used for the frontend.
+- React: A JavaScript library for building user interfaces, used for the frontend.
 
-React Hooks: useState, useEffect for state management and side effects.
+- React Hooks: useState, useEffect for state management and side effects.
 
-Client-side Routing: Implemented using URL hash (window.location.hash).
+- Client-side Routing: Implemented using URL hash (window.location.hash).
 
-Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-Boxicons: For icons in the authentication forms.
+- Boxicons: For icons in the authentication forms.
 
-Node.js: A JavaScript runtime environment, used for the backend server.*
+- Node.js: A JavaScript runtime environment, used for the backend server.*
 
 ## Other Key Libraries:
 
-mongoose: MongoDB object modeling for Node.js.
+- mongoose: MongoDB object modeling for Node.js.
 
-bcryptjs: For hashing and salting passwords.
+- bcryptjs: For hashing and salting passwords.
 
-jsonwebtoken: For implementing JWT-based authentication.
+- jsonwebtoken: For implementing JWT-based authentication.
 
-dotenv: For loading environment variables from a .env file.
+- dotenv: For loading environment variables from a .env file.
 
-cors: Node.js middleware for enabling Cross-Origin Resource Sharing.
+- cors: Node.js middleware for enabling Cross-Origin Resource Sharing.
 
-nodemon: (Development) Automatically restarts the Node.js server when file changes are detected.
+- nodemon: (Development) Automatically restarts the Node.js server when file changes are detected.
 
 ## Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
@@ -155,35 +155,35 @@ Logout: Click the "Logout" button to return to the authentication page.
 The project is organized into backend and frontend directories.
 
 .
-├── expense-tracker-backend/
-│   ├── config/             # Database connection setup
-│   │   └── db.js
-│   ├── controllers/        # Business logic for routes
-│   │   ├── authController.js
-│   │   └── expenseController.js
-│   ├── middleware/         # Custom middleware (e.g., authentication)
-│   │   └── authMiddleware.js
-│   ├── models/             # Mongoose schemas for data models
-│   │   ├── User.js
-│   │   └── Expense.js
-│   ├── routes/             # API endpoints
-│   │   ├── authRoutes.js
-│   │   └── expenseRoutes.js
-│   ├── .env                # Environment variables (sensitive info)
-│   ├── package.json
-│   └── server.js           # Main Express server file
-│
-└── expense-tracker-frontend/
-    ├── public/
-    ├── src/
-    │   ├── App.js          # Main application component, handles routing
-    │   ├── AuthForm.js     # Login and Registration form component
-    │   ├── Dashboard.js    # Main dashboard component, manages expense state
-    │   ├── ExpenseForm.js  # Component for adding new expenses
-    │   ├── ExpenseList.js  # Component for displaying expenses table
-    │   └── index.js        # React app entry point
-    ├── package.json
-    └── README.md           # This file
+- ├── expense-tracker-backend/
+- │   ├── config/             # Database connection setup
+- │   │   └── db.js
+- │   ├── controllers/        # Business logic for routes
+- │   │   ├── authController.js
+- │   │   └── expenseController.js
+- │   ├── middleware/         # Custom middleware (e.g., authentication)
+- │   │   └── authMiddleware.js
+- │   ├── models/             # Mongoose schemas for data models
+- │   │   ├── User.js
+- │   │   └── Expense.js
+- │   ├── routes/             # API endpoints
+- │    │   ├── authRoutes.js
+- │   │   └── expenseRoutes.js
+- │   ├── .env                # Environment variables (sensitive info)
+- │   ├── package.json
+- │   └── server.js           # Main Express server file
+- │
+- └── expense-tracker-frontend/
+ -   ├── public/
+ -  ├── src/
+ -   │   ├── App.js          # Main application component, handles routing
+ -   │   ├── AuthForm.js     # Login and Registration form component
+ -   │   ├── Dashboard.js    # Main dashboard component, manages expense state
+ -   │   ├── ExpenseForm.js  # Component for adding new expenses
+ -   │   ├── ExpenseList.js  # Component for displaying expenses table
+ -   │   └── index.js        # React app entry point
+ -   ├── package.json
+ -   └── README.md           # This file
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or find any bugs, please feel free to:
