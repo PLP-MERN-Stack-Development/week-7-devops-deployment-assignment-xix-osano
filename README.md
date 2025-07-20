@@ -155,30 +155,6 @@ Logout: Click the "Logout" button to return to the authentication page.
 The project is organized into backend and frontend directories.
 
 ```
-mern-testing/
-├── client/                 # React front-end
-│   ├── src/                # React source code
-│   │   ├── components/     # React components
-│   │   ├── tests/          # Client-side tests
-│   │   │   ├── unit/       # Unit tests
-│   │   │   └── integration/ # Integration tests
-│   │   └── App.jsx         # Main application component
-│   └── cypress/            # End-to-end tests
-├── server/                 # Express.js back-end
-│   ├── src/                # Server source code
-|   |   |── config/
-│   │   ├── controllers/    # Route controllers
-│   │   ├── models/         # Mongoose models
-│   │   ├── routes/         # API routes
-│   │   └── middleware/     # Custom middleware
-│   └── tests/              # Server-side tests
-│       ├── unit/           # Unit tests
-│       └── integration/    # Integration tests
-├── jest.config.js          # Jest configuration
-└── package.json            # Project dependencies
-```
-
-```
 ├── expense-tracker-server/
 │   ├── config/             # Database connection setup
 │   │   └── db.js
