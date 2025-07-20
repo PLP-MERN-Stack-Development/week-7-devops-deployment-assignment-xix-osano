@@ -8,7 +8,7 @@ const Dashboard = ({ navigate, token, onLogout }) => {
     const [error, setError] = useState(null);
 
     // Base URL for your backend API
-    const API_BASE_URL = 'http://localhost:5000/api'; // Make sure this matches your backend URL
+    const API_BASE_URL = 'https://week-7-devops-deployment-assignment-xix.onrender.com/api'; // Make sure this matches your backend URL
 
     // Function to fetch expenses from the backend
     const fetchExpenses = async () => {
